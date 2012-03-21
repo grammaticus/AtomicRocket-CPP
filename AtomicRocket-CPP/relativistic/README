@@ -1,0 +1,24 @@
+*README*
+Modified: 20 Mar 2012
+Author: Grammaticus
+
+
+Included Files:
+main.cpp - implementation of menus and formulae
+main.h - header file for main.cpp
+ship.cpp - ship class - attributes are acceleration, exhaust velocity, mass ratio, velocity, and proper time; default constructor -> all attributes = -1
+ship.h - header file for ship.cpp; includes setter and getter methods for all attributes
+Terra.cpp - Terra class - attributes are Terra Time and distance; default constructor -> all atributes = -1
+Terra.h - header file for Terra.cpp; includes setter and getter methods for all attributes
+
+Output:
+"relativistic"
+
+To compile:
+$> make
+
+To run:
+./relativistic
+
+Use:
+Simply follow the menu choices provided; note that acceleration MUST be a positive number
